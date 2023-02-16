@@ -1,14 +1,14 @@
 import requests
-from datetime import datetime
-APP_ID = "7243a9be"
-API_KEY = "6774f87bb86acd9990011b48e575bcbd"
+import datetime
+APP_ID = "MYAPP ID FROM NUTRITIONIX API"
+API_KEY = "MYAPP API_KEY FROM NUTRITIONIX API"
 
 NUTRIX_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
-SHEET_ENDPOINT = "https://api.sheety.co/1f5d6c349b86c0951545c5242f55b446/myWorkouts/workouts"
+SHEET_ENDPOINT = "MY GOOGLE SHEET_ENDPOINT"
 query = input()
 
-today_date = datetime.now().strftime("%d/%m/%Y")
-now_time = datetime.now().strftime("%X")
+today_date = datetime.datetime.now().strftime("%d/%m/%Y")
+now_time = datetime.datetime.now().strftime("%X")
 
 headers = {
     "x-app-id": APP_ID,
