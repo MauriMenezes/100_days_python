@@ -1,7 +1,7 @@
 import requests
 import datetime
 APP_ID = "MYAPP ID FROM NUTRITIONIX API"
-API_KEY = "MYAPP API_KEY FROM NUTRITIONIX API"
+API_KEY = "MYAPP API_KEY FROM NUTRITIONIX APi"
 
 NUTRIX_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
 SHEET_ENDPOINT = "MY GOOGLE SHEET_ENDPOINT"
